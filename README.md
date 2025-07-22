@@ -1,6 +1,6 @@
 # AquaWatch - Real-Time Dam & River Water Level Dashboard
 
-AquaWatch is a modern, real-time dashboard for monitoring dam and river water levels in the Philippines, powered by data from PAGASA. It features a beautiful, responsive UI and a robust backend scraper/caching system.
+AquaWatch is a modern, real-time dashboard for monitoring dam and river water levels in the Philippines, powered by data from PAGASA. It features a beautiful, responsive UI and a backend scraper/caching system.
 
 ## Features
 
