@@ -47,10 +47,21 @@ AquaWatch is a modern, real-time dashboard for monitoring dam and river water le
 3. Open `index.html` in your browser (or serve via local web server)
 
 ## Data Source
+
 - [PAGASA - Philippine Atmospheric, Geophysical and Astronomical Services Administration](https://pasig-marikina-tullahanffws.pagasa.dost.gov.ph/)
 
+## API
+
+This project uses a custom API that scrapes and caches real-time dam and river water level data from PAGASA:
+
+- [AquaWatch API - https://api.aquawatch.live/api/station](https://api.aquawatch.live/api/station)
+  - Returns a list of all available stations/dams and their latest readings.
+  - Developed and maintained by [ItsMeRioooo](https://github.com/ItsMeRioooo).
+
+The API backend was created specifically for this project to provide reliable, up-to-date data for the dashboard.
+
 ## License
-MIT
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
